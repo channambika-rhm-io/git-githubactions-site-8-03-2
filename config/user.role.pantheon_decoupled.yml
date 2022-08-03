@@ -1,0 +1,16 @@
+uuid: 17045f83-b893-404a-b98e-25b4803e3378
+langcode: en
+status: true
+dependencies:
+  module:
+    - decoupled_preview
+    - node
+_core:
+  default_config_hash: 5gY9jwruXrcThoTJHnHRWEjI09IyBZQ5NIqfaKjP1vE
+id: pantheon_decoupled
+label: 'Pantheon Decoupled'
+weight: 5
+is_admin: null
+permissions:
+  - 'administer dp_preview_site'
+  - 'view all revisions'
